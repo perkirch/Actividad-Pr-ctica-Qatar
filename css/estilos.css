@@ -1,0 +1,656 @@
+*{font-family: 'Quicksand', sans-serif;}
+::selection{background-color: rgb(155, 7, 91);}
+
+body{
+    font-size: 15px;
+    background-image: linear-gradient(0, #ff7f4b 0, #ff714f 16.67%, #ff6252 33.33%, #f25353 50%, #e04553 66.67%, #d03953 83.33%, #c02f54 100%);
+    color: rgb(255, 255, 255);
+}
+main{
+   
+    text-align: center; 
+ }
+ 
+ footer{
+    
+    text-align: center; 
+ }
+
+
+/* Fijación whatssap y logo centrado whatsapp en index y acerca de (por las fotos) */
+.whatsapp{
+    padding-left: 90em;
+    position:fixed;
+    font-size: 0.7em;
+}
+#logo_whatsapp{
+    padding-left: 4em;
+} 
+/* --------------------------------------------------------------------
+
+
+
+ /* EN INDEX.HTML Márgenes izq y der de todos los párrafos del index.html  */
+#grupos_p, #fixture_p, #estadios_p, #paisesparticipantes_p{
+    margin: -1em 4em 0.5em 4em;
+}
+/* --------------------------------------------- */ 
+
+/* Márgenes superiores de todos los párrafos de los h2 del index.html */
+#grupos_p {
+    margin-top: -0.5em;
+}
+/* Para celular */
+@media screen and (max-width: 600px) {
+    #grupos_p{
+        margin-left:1em;
+        margin-right: 1em;
+    }
+}
+#fixture_p{
+    margin-top: -0.5em;
+}
+/* Para celular */
+@media screen and (max-width: 600px) {
+    #fixture_p{
+        margin-left:1em;
+        margin-right: 1em;
+    }
+}
+#estadios_p{
+    margin-top: -0.5em;
+}
+/* Para celular */
+@media screen and (max-width: 600px) {
+    #estadios_p{
+        margin-left:1em;
+        margin-right: 1em;
+    }
+}
+#paisesparticipantes_p{
+    margin-top: -0.5em;
+}
+/* Para celular */
+@media screen and (max-width: 600px) {
+    #paisesparticipantes_p{
+        margin-left:1em;
+        margin-right: 1em;
+    }
+}
+/* ------------------------------------------------- */
+
+
+ /* Headings */
+h1{
+    font-size: 2.7em;  
+    text-align: center;
+    color: rgb(255, 255, 255) ;
+  }
+  
+  h2{
+      font-size: 2em;
+      font-weight:bold;
+     
+  }
+  
+  h3{ font-size: 1.5em;
+  }
+  /* ------------------------------------------------ */
+
+  p{font-size: 1em;}
+
+  /* Todos los hipervínculos (color y decoración) */
+a{color: #ffffff;
+    text-decoration: none;
+     }
+     a:hover{color:rgb(245, 123, 180)}
+     /* a:visited{color:rgb(95, 5, 5)} */
+
+/* -------------------------------------------------------------------- */
+
+ /* Barra nav1 arriba izquierda (Acerca de, Login, etc) */
+ #nav1{
+    font-size: 0.8em;
+    text-align: left;    
+}
+#home{
+    padding-right: 1em;
+    margin-left: 0.5em;
+}
+#acerca_de{
+    padding-right: 1em;
+}
+#formulario{
+    padding-right: 1em;   
+}
+#login{  
+    padding-right: 1em;
+}
+
+/* -------------------------------------------------------------------- */
+
+/* Alineación #div2 para Notebook (arriba a la derecha */
+ .div2{
+    margin-top: 3em;
+}
+
+/* -------------------------------------------------------------------- */
+
+/* Barra nav3 Menú general (Grupos, Fixture, etc)*/
+#nav3{
+    font-size: 1.5em;
+    /* background-color: rgb(232, 41, 95); */
+}
+/* #nav3 en Celular */
+@media screen and (max-width: 600px) {
+     #nav3 a {
+      float: left;
+      width: 100%;
+      padding-right: 0em; 
+      margin-bottom: 0.5em;
+      margin-left: 0em;
+      text-align: center;  
+       }
+  }
+   
+#grupos1{
+    margin-left: em;
+    margin-right: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-style: dotted;
+    border-radius: 0.5em;
+    background-color: rgb(231, 11, 70);
+    border-color: rgb(241, 116, 116);
+    
+}
+#fixture1{
+    margin-right: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-style: dotted;
+    border-radius: 0.5em;
+    background-color: rgb(231, 11, 70);
+    border-color: rgb(241, 116, 116);
+}
+#estadios1{
+    margin-right: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-style: dotted;
+    border-radius: 0.5em;
+    background-color: rgb(231, 11, 70);
+    border-color: rgb(241, 116, 116);
+    
+}
+#paises_participantes1{  
+    margin-right: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-style:dotted;
+    border-radius: 0.5em;
+    background-color: rgb(231, 11, 70);
+    border-color: rgb(241, 116, 116);
+    
+}
+
+/* -------------------------------------------------------------------- */
+
+/* IMÁGENES */
+
+/* Todas las imágenes del Index para Notebook */
+.img_index{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border: 0.3em solid rgb(0, 0, 0);}
+ 
+/* Todas las imágenes de Acerca de para Notebook */        
+.img_acercade{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border: 0.3em solid rgb(0, 0, 0);}    
+
+/* Todas las imágenes de Estadios para Notebook */     
+#img_estadios{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border: 0.3em solid rgb(0, 0, 0);
+}
+/* Todas las imágenes de Index, Acerca de, Estadios, etc para Celular */
+ @media screen and (max-width: 600px) {
+    .img_index{
+        width: 80%;
+    }
+ }
+@media screen and (max-width: 600px) {    
+    .img_acercade{
+    width: 80%;
+ }
+}
+@media screen and (max-width: 600px) {   
+    #img_estadios{
+    width: 80%;
+    }   
+ } 
+        
+
+       
+/* ------------------------------------------------------------------------------------ */
+
+
+/* EN GRUPOS.HTML */
+/* Márgenes de las tablas para Notebook */
+.grupob, .grupod, .grupoe, .grupof{
+    margin-left: 27em;}
+.grupoa, .grupoc, .grupog{
+    margin-left: 26em;
+}   
+.grupoh{
+    margin-left: 25em;
+} 
+    
+/* Márgenes de las tablas para Celular */
+@media screen and (max-width: 600px) {
+    .grupoa, .grupoc, .grupog{
+    margin-left:2em;
+        }
+    }
+@media screen and (max-width: 600px) {
+    .grupob, .grupod, .grupoe, .grupof{
+    margin-left:3em;
+            }
+        }
+@media screen and (max-width: 600px) {
+    .grupoh{
+    margin-left:1.3em;
+                }
+            }
+/* Todos los nav3 salvo los del Index.html porque tiene CSS GRID para Notebook*/
+.nav3{
+    margin-left: 7em;
+} 
+
+/* Todos los nav3 salvo los del Index.html porque tiene CSS GRID para Celular*/           
+@media screen and (max-width: 600px) {
+    .nav3{
+    margin-left: 0em;
+    margin-right:1.2em ;
+    }
+}
+
+
+/* Decoración de las tablas */
+table th{
+    background: rgb(255, 0, 81)
+}
+.grupoa tr:nth-child(even){background-color: rgb(164, 20, 59);}
+.grupob tr:nth-child(even){background-color: rgb(164, 20, 59);}
+.grupoc tr:nth-child(even){background-color: rgb(159, 39, 71);}
+.grupod tr:nth-child(even){background-color: rgb(159, 39, 71);}
+.grupoe tr:nth-child(even){background-color: rgb(166, 45, 77);}
+.grupof tr:nth-child(even){background-color: rgb(166, 45, 77);}
+.grupog tr:nth-child(even){background-color: rgb(157, 47, 76);}
+.grupoh tr:nth-child(even){background-color: rgb(157, 47, 76);}
+/* ----------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container{
+    display: grid;
+    grid-template: 1fr 2fr 2fr 1fr 1fr/ 530x 530x;
+    grid-template-areas: 'header header'
+                         'main1 main3'
+                         'main2 main4'
+                         'nuevito nuevito'
+                         'footer footer';
+   
+    row-gap: 5px;
+    text-align: center;
+    
+
+    
+    
+                         
+}
+
+.header{
+    grid-area: header;
+    background-color: blueviolet;
+    padding: 2em
+}
+.nuevito{
+    grid-area: nuevito;
+    background-color: red;
+    padding: 2em
+}
+.grupos{
+    grid-area: main1;
+    background-color: rgb(98, 98, 95);
+    padding: 2em
+}
+.estadios{
+    grid-area: main2;
+    background-color: yellow;
+    padding: 2em
+}
+.fixture{
+    grid-area: main3;
+    background-color: rgb(0, 255, 13);
+}
+.paisesparticipantes{
+    grid-area: main4;
+    background-color: rgb(0, 145, 255);
+}
+.footer{
+    grid-area: footer;
+    background-color: green;
+}
+
+@media screen and (max-width: 600px){
+    .container {
+        grid-template-rows: 10% 20% 20% 20% 20% 10%;
+        grid-template-areas: 'header header'
+        'main1 main1'
+        'main2 main2'
+        'main3 main3'
+        'main4 main4'
+        'nuevito footer'
+
+    }
+}
+@media screen and (max-width: 600px){
+    .grupos{
+       padding: 0.5em;
+    }
+} */
+/* @media screen and (max-width: 600px){
+    .grupos{
+        grid-area: main1;
+        background-color: rgb(98, 98, 95);
+        width: 100%;
+       
+    }
+} */
+
+/* En footers, márgen de Volver Arriba  */
+.div3{
+    margin-top: 4em;
+} 
+/* -------------------------------------------------------------------- */
+
+
+.container{
+    display: grid;
+    grid-template:auto auto auto auto / auto auto ;
+    /* grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto; */
+    gap: 0.5em;
+    text-align: center;
+    
+}
+/* .container div {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+.header{
+grid-column: 1 / span 2 ;
+}
+.grupos{
+    
+}
+.fixture{
+    
+}
+.estadios{
+
+}
+
+.paisesparticipantes{
+   
+
+}
+.footer{
+    grid-column: 1 / span 2 ;
+    
+}
+
+@media screen and (max-width: 600px){
+.header, .grupos, .fixture, .estadios, .paisesparticipantes, .footer{
+    grid-column: 1 / span2;}
+    .container{
+        grid-template-rows: auto auto auto auto auto auto;
+    }
+}
+
+
+
+/* EN ACERCADE.HTML */    
+.acercade_h2_geo{
+    height: 1.5em;
+    width: 6em;
+    border-radius: 0.5em ;
+    border-style: dotted;
+    background-color: rgb(231, 11, 70);
+    border-color: rgb(241, 116, 116);
+    margin-top: 2em;
+    margin-bottom: 1em;
+    margin-left: 14em;
+        }
+    @media screen and (max-width: 600px) {
+        .acercade_h2_geo{
+            margin-left:2.8em;
+            margin-top: 3em;
+        }   
+    }
+    .acercade_h2_his{
+        height: 1.5em;
+        width: 6em;
+        border-radius: 0.5em ;
+        border-style: dotted;
+        background-color: rgb(231, 11, 70);
+        border-color: rgb(241, 116, 116);
+        margin-top: 2em;
+        margin-bottom: 1em;
+        margin-left: 14em;
+            }
+    @media screen and (max-width: 600px) {
+            .acercade_h2_his{
+                margin-left:2.8em;
+            }
+        }
+    .acercade_div_geo, .acercade_div_his{
+        color: rgb(255, 255, 255);
+        margin: 1em 4em 0.5em 4em;
+    }
+    @media screen and (max-width: 600px) {
+        .acercade_div_geo{
+            margin-top: 0.5em;
+            margin-left:2em;
+            margin-right: 2em;
+        }
+    }
+    @media screen and (max-width: 600px) {
+        .acercade_div_his{
+            /* margin-top: 0.5em; */
+            margin-left:2em;
+            margin-right: 2em;
+        
+    }
+}
+@media screen and (max-width: 600px) {
+#youtube1, #youtube2{
+    width:50%;
+    height:auto;
+}
+}
+
+
+/* EN PAISESPARTICIPANTES.HTML */
+.h2_paisesparticipantes{
+    height: 1.5em;
+    width: 10em;
+    border-radius: 0.5em ;
+    border-style: dotted;
+    background-color: rgb(231, 11, 70);
+    border-color: rgb(241, 116, 116);
+    margin-top: 2em;
+    margin-bottom: 1em;
+    margin-left: 12.5em;
+}
+
+@media screen and (max-width: 600px) {
+    .h2_paisesparticipantes{
+    margin-top: 2em;
+    margin-left:2.3em;
+   
+ }
+}
+
+
+/*Flexbox */
+
+.tarjeta{
+    background-color:rgb(188, 19, 95) !important;
+    width: 23em !important;
+    border: 0.2em solid rgb(231, 11, 70) !important;
+    border-radius: 1em !important;
+    padding-left: 0.3em !important;
+    padding-right: 0.3em  !important;
+    /* object-fit: contain; */    
+}
+h3 p{
+    font-size: 0.2em !important;
+}
+.tarjeta img {
+    width: 100% !important;
+    height: auto !important;
+   
+}
+.contenedor{
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    /* justify-content: content;
+    gap: 1.5em; */
+    justify-content:space-evenly !important;
+    row-gap: 0.7em !important;
+}
+
+.img_paisesparticipantes {
+    border-radius: 1em !important; 
+}
+
+/* Formulario */
+#formulario{
+    margin-top: 3em;    
+} 
+form{
+    font-size: 1em;
+}
+@media screen and (max-width: 600px) {
+    #formulario{
+        margin-top: 10em;  
+    }  
+ }
+
+
+/* EN ESTADIOS.HTML */
+/* Caja h2 Estadios para Notebook */
+#h2_estadios{
+    height: 1.5em;
+    width: 6em;
+    border-radius: 0.5em ;
+    border-style: dotted;
+    background-color: rgb(231, 11, 70);
+    border-color: rgb(241, 116, 116);
+    margin-top: 2em;
+    margin-bottom: 1em;
+    margin-left: 14.5em;
+}
+/* Caja h2 Estadios para Celular */
+@media screen and (max-width: 600px) {
+    #h2_estadios{
+        margin-left: 2.8em;
+        margin-top: 10em;
+    }  
+ }
+ /* Iframes para Celular */
+ @media screen and (max-width: 600px) {
+#iframe1, #iframe2, #iframe3, #iframe4, #iframe5, #iframe6, #iframe7, #iframe8{
+    width:50%;
+    height:auto;
+}
+}
+
+
+
+ /* En estadios.html márgenes para todos los párrafos para Notebook*/
+ #p1, #p2, #p3, #p4, #p5, #p6, #p7, #p8{
+    margin: 1em 4em 0.5em 4em;
+}
+ 
+
+ /* En estadios.html márgenes para todos los párrafos para Celular*/
+ @media screen and (max-width: 600px) {
+#p1, #p2, #p3, #p4, #p5, #p6, #p7, #p8{
+        margin-left:2em;
+        margin-right: 2em;
+    }  
+ }
+
+
+
+/* Login */
+#login{
+    margin-top: 3em;
+} 
+.login{
+    font-size: 1em;
+}
+@media screen and (max-width: 600px) {
+    #login{
+        margin-top: 10em;  
+    }  
+ }
+
+/* ------------------------------------------------ */
+
+/* Contacto */
+ #contacto{
+    margin-top: 3em;
+} 
+
+@media screen and (max-width: 600px) {
+    #contacto{
+        margin-top: 10em;  
+    }  
+ }
+
+
+
+
+ @media screen and (max-width: 600px) {
+    #div2_acercade{
+        position: absolute;
+        margin-top: 148em;
+        margin-left: 13em;
+        }
+    }

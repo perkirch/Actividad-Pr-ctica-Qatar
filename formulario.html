@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <link rel="shortcut icon" href="./Imágenes/Logo Favicon.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+
+<body >
+    <header>
+        <nav id="nav1"> 
+            <a id="home"href="index.html">Home</a>
+            <a id="acerca_de" href="./acercade.html" target="_blank">Acerca de</a>
+            <a id="formulario" href="./formulario.html"target="_blank">Formulario</a>
+            <a id="login" href="./login.html"target="_blank">Login</a>
+            <a id="contacto" href="./contacto.html"target="_blank">Contacto</a>
+        </nav>
+        
+        <h1>
+            <b>World Cup Qatar 2022<img src="./Imágenes/Logo World Cup 2.png"width="70" alt="Logo World Cup"></b>
+        </h1> 
+        <nav  class="nav3" id="nav3">
+            <a id="grupos1" href="./grupos.html"target="_blank">Grupos</a>
+            <a id="fixture1" href="./fixture.html"target="_blank">Fixture</a>
+            <a id="estadios1"href="./estadios.html"target="_blank">Estadios</a>
+            <a id="paises_participantes1"href="./paisesparticipantes.html"target="_blank">Países participantes</a>
+        </nav>
+            <br>
+           
+        </header>
+
+        <main> 
+            <div class="whatsapp">
+                <h3>Mandanos un whatsapp</h3>
+                <a href="https://api.whatsapp.com/send?phone=1165478324" title="Whatsapp" target="_blank"><img src="./imágenes/Logo Whatsapp.png "  width="30" alt="Whatsapp"></a>
+            </div>
+                <br>
+                <h2 id="formulario">Formulario de Registro</h2>
+                <img src="./Imágenes/Logos/Logo Form.png"width="40" alt="Login">
+                <br><br>
+            
+                <form action="show-data.html" target="_blank">
+                    <label for="firstname">Nombre:</label> 
+                    <input type="text" name="firstname" id="firstname" placeholder="Ingrese su nombre aquí..."><br><br>
+                    <label for="lastname">Apellido:</label>
+                    <input type="text" name="lastname"id="lastname"placeholder="Ingrese su apellido aquí..."><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email"placeholder="Ingrese su email aquí..."><br><br>
+                    <label for="address">Dirección:</label>
+                    <input type="text" name="address" id="address" placeholder="Ingrese su dirección aquí..."><br><br>
+                    <label for="city">Ciudad:</label>
+                    <input type="text" name="city"id="city" value="Capital Federal"><br><br>
+                    <label for="zipcode">Código Postal:</label>
+                    <input type="text" name="zipecode" id="zipcode" placeholder="Ingrese su código postal aquí..."><br><br>
+                    <label for="birthdate">Fecha de Nacimiento (mm/dd/yyyy):</label>
+                    <input type="text" id="birthdate" name="birthdate"><br><br>
+    
+                    <textarea name="comentarios" cols="30" rows="10">Escribe un comentario...</textarea>
+                    <br>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Borrar todo">
+            
+                    <p>Género:
+                        <input type="radio" name="gender"value="Hombre"> Hombre
+                        <input type="radio" name="gender" value="Mujer"> Mujer
+                        <input type="radio" name="gender" value="Otro"> Otro
+                    </p>
+                    <label for="género">Género:</label>
+                    <input type="radio" name="gender"value="Hombre"> Hombre
+                        <input type="radio" name="gender" value="Mujer"> Mujer
+                        <input type="radio" name="gender" value="Otro"> Otro
+                        <br>
+                    <p>Género:
+                        <select name="gender">
+                            <option value="gender">Hombre</option>
+                            <option value="gender">Mujer</option>
+                            <option value="gender">Otro</option>
+                        </select>
+                </p>
+                    <p> Conocimiento de Programación:
+                        <input type="checkbox" name="conocimientos" value="HTML"> HTML
+                        <input type="checkbox" name="conocimientos" value="CSS"> CSS
+                        <input type="checkbox" name="conocimientos" value="Javascript"> Javascript
+                        <input type="checkbox" name="conocimientos" value="Angular"> Angular
+                    </p>
+                    
+                    
+            
+            </form>
+            </main>
+             
+            <div class="footer">
+                <footer>
+                    <div class="div2">
+                        <a id="instagram" href="https://www.instagram.com/fifaworldcup/" title="Instagram" target="blank">
+                            <img src="./imágenes/Logo Instagram.png" width="30" alt="Instagram"></a>
+                        <a id="facebook" href="https://www.facebook.com/fifa" title="Facebook" target="blank"> <img img
+                                id="facebook_cel" src="./imágenes/Logo Facebook.png" width="30" alt="Facebook"></a>
+                        <a id="twitter" href="https://twitter.com/FIFAcom" title="Twitter" target="blank"><img
+                                src="./imágenes/Logo Twitter.png" title="Twitter" width="30" alt="Twitter"></a>
+                        <a id="tiktok" href="https://www.tiktok.com/@fifaworldcup" title="Tik Tok" target="_blank"><img
+                                src="./Imágenes/Logo Tik Tok.png" width="30" alt="Tik Tok"></a>
+                        <a id="youtube" href="https://www.youtube.com/FIFATV" title="Youtube" target="_blank"><img
+                                src="./Imágenes/Logo Youtube.png" width="30" alt="Youtube"></a>
+                    </div>
+    
+                    <div class="div3">
+    
+                        <a href="index.html">Volver al Home</a>
+                        <br>
+                        <a href="#nav1">Ir arriba</a>
+                        <br>
+                        <h5>Derechos reservados @2022</h5>
+                    </div>
+                </footer>
+    
+            </div>
+    
+        </div>
+            
+    
+    </body>
+</html>
