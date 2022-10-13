@@ -270,7 +270,25 @@
         <div id="prueba">
 
         </div>
+        
 
+        <div id="tarjeta-selecciones">
+            
+            <div class="contenedor3">
+                <div v-for="tarjeta in selecciones" class="tarjeta3">
+                    <p>{{tarjeta.id}}</p>
+                    <h3>{{tarjeta.pais}}</h3>
+                 <img :src="(tarjeta.imagen)" alt=""> 
+                    <p>{{tarjeta.descripcion}}</p>
+                    <p>Figura: {{tarjeta.figura}}</p>
+                </div>
+            </div>
+            
+        </div>
+        
+    
+       
+        
 
     </main>
 
@@ -300,6 +318,7 @@
         </footer>
 
     </div>
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 <script src="./main.js"></script>
 </body>
 

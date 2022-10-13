@@ -44,28 +44,36 @@
             </div>
                 <img src="./Imágenes/Logos/Logo Form.png"width="40" alt="Login">
                 <br><br>
-             <form action="show-data.html" target="_blank">
-                    <label for="firstname">Nombre:</label> 
-                    <input type="text" name="firstname" id="firstname" placeholder="Ingrese su nombre aquí..."><br><br>
-                    <label for="lastname">Apellido:</label>
-                    <input type="text" name="lastname"id="lastname"placeholder="Ingrese su apellido aquí..."><br><br>
+             <form>
+                    <label for="nombre">Nombre:</label> 
+                    <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre aquí..."><br><br>
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" name="apellido"id="apellido"placeholder="Ingrese su apellido aquí..."><br><br>
                     <label for="email">Email:</label>
                     <input type="email" name="email" id="email"placeholder="Ingrese su email aquí..."><br><br>
-                    <label for="address">Dirección:</label>
-                    <input type="text" name="address" id="address" placeholder="Ingrese su dirección aquí..."><br><br>
-                    <label for="city">Ciudad:</label>
-                    <input type="text" name="city"id="city" value="Capital Federal"><br><br>
-                    <label for="zipcode">Código Postal:</label>
-                    <input type="text" name="zipecode" id="zipcode" placeholder="Ingrese su código postal aquí..."><br><br>
-                    <label for="birthdate">Fecha de Nacimiento (mm/dd/yyyy):</label>
-                    <input type="text" id="birthdate" name="birthdate"placeholder="Ingrese su fecha de nacimiento aquí..."><br><br>
+                    <label for="nacimiento">Fecha de Nacimiento (mm/dd/yyyy):</label>
+                    <input type="text" name="nacimiento" id="nacimiento" name="birthdate"placeholder="Ingrese su fecha de nacimiento aquí..."><br><br>
+                    <label for="pais">País:</label>
+                    <input type="text" name="pais"id="pais"placeholder="Ingrese su país aquí..."><br><br>
+                    <label for="ciudad">Ciudad:</label>
+                    <input type="text" name="ciudad"id="ciudad" value="Capital Federal"><br><br>
+                    <label for="direccion">Dirección:</label>
+                    <input type="text" name="direccion" id="direccion" placeholder="Ingrese su dirección aquí..."><br><br>
+                    <label for="piso">Piso:</label>
+                    <input type="text" name="piso" id="piso" placeholder="Ingrese su dirección aquí..."><br><br>
+                    <label for=codigo">Código Postal:</label>
+                    <input type="text" name="codigo" id="codigo" placeholder="Ingrese su código postal aquí..."><br><br>
+                    
     
                     <textarea name="comentarios" cols="30" rows="10">Escribe un comentario...</textarea>
                     <br>
-                    <input type="submit" value="Enviar">
-                    <input type="reset" value="Borrar todo">
+                    <button id="btnEnviar"onclick="fEnviar()">Enviar</button><br><br>
+                    <!-- <input type="submit" value="Enviar">
+                    <input type="reset" value="Borrar todo"><br><br> -->
+                    <label for="acepto">Acepto los términos</label>
+                    <input type="checkbox"  id="acepto">
             
-                    <p>Género:
+                    <!-- <p>Género:
                         <input type="radio" name="gender"value="Hombre"> Hombre
                         <input type="radio" name="gender" value="Mujer"> Mujer
                         <input type="radio" name="gender" value="Otro"> Otro
@@ -88,7 +96,7 @@
                         <input type="checkbox" name="conocimientos" value="Javascript"> Javascript
                         <input type="checkbox" name="conocimientos" value="Angular"> Angular
                     </p>
-                    
+                     -->
                     
             
             </form>
@@ -123,6 +131,6 @@
     
         </div>
             
-    
+    <script src="./main.js"></script>
     </body>
 </html>

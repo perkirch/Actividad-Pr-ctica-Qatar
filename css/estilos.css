@@ -1,3 +1,8 @@
+
+
+
+
+
 * {
     font-family: 'Quicksand', sans-serif;
 }
@@ -8,7 +13,10 @@
 
 body {
     font-size: 15px;
-    background-image: linear-gradient(0, #ff7f4b 0, #ff714f 16.67%, #ff6252 33.33%, #f25353 50%, #e04553 66.67%, #d03953 83.33%, #c02f54 100%);
+    /* background-image: linear-gradient(0, #ff7f4b 0, #ff714f 16.67%, #ff6252 33.33%, #f25353 50%, #e04553 66.67%, #d03953 83.33%, #c02f54 100%); */
+    /* background-image: linear-gradient(90deg, #ffaa70 0, #ff9c7b 8.33%, #ff8e83 16.67%, #ff7f8a 25%, #ff708d 33.33%, #ff618d 41.67%, #f25389 50%, #d34683 58.33%, #b83d7d 66.67%, #9f3678 75%, #893174 83.33%, #762e71 91.67%, #662d6f 100%); */
+    background: rgb(204,36,123);
+    background: linear-gradient(90deg, rgba(204,36,123,1) 46%, rgba(230,5,117,1) 54%);
     color: rgb(255, 255, 255);
 }
 
@@ -791,7 +799,7 @@ h3 p {
     border-color: rgb(241, 116, 116);
     margin-top: 2em;
     margin:0 auto;
-    margin-bottom:1.5em;
+    margin-bottom:0.5em;
     padding-left: 0em;
     height: 1.5em;
     width: 6em; 
@@ -893,7 +901,7 @@ form {
 
 
 
-/* Login */
+/* EN LOGIN.HTML*/
 
 /* H2 Login para Notebook */
 .h2_login {
@@ -903,7 +911,7 @@ form {
     border-color: rgb(241, 116, 116);
     margin-top: 2em;
     margin:0 auto;
-    margin-bottom:1.5em;
+    margin-bottom:0.5em;
     padding-left: 0em;
     height: 1.5em;
     width: 4em; 
@@ -930,7 +938,24 @@ form {
         margin-top: 7em;
     }
 }
-
+.transicion{
+    width: 250px;
+    height: 80px;
+    margin:0 auto;
+    transition-duration: 0.8s;
+    transition-timing-function: ease-in-out;
+    /* transition: width 1s ease-in-out, heigth 1s ease-in-out, transform 0.4s; */
+}
+      
+.transicion:hover {
+        background-color: rgb(255, 2, 86);
+        border-color: rgb(241, 116, 116);
+        border-radius: 0.5em;
+        border-style: dotted;
+        /* width: 300px; 
+        height: 60px; */
+        transform:scale(1.3) rotate(350deg);
+      }
 /* ------------------------------------------------ */
 
 /* Contacto */
