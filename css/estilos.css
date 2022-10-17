@@ -33,9 +33,10 @@ footer {
 
 /* Fijación whatssap y logo centrado whatsapp en index y acerca de (por las fotos) */
 .whatsapp {
-    padding-left: 90em;
     position: fixed;
     font-size: 0.7em;
+    right: 30px;
+    top: 50px;
 }
 
 #logo_whatsapp {
