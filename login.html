@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,54 +8,59 @@
     <title>Login</title>
     <link rel="shortcut icon" href="./Imágenes/Logo Favicon.jpg" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/estilos.css">
 </head>
+
 <body>
     <header>
-        <nav id="nav1"> 
-            <a id="home"href="index.html">Home</a>
-            <a id="acerca_de" href="./acercade.html" target="_blank">Acerca de</a>
-            <a id="formulario" href="./formulario.html"target="_blank">Formulario</a>
-            <a id="login" href="./login.html"target="_blank">Login</a>
-            <a id="contacto" href="./contacto.html"target="_blank">Contacto</a>
+        <nav id="nav1">
+            <a id="home" href="index.html">Home</a>
+            <a id="acerca_de" href="./acercade.html" >Acerca de</a>
+            <a id="formulario" href="./formulario.html" >Formulario</a>
+            <a id="login" href="./login.html" >Login</a>
+            <a id="contacto" href="./contacto.html" >Contacto</a>
         </nav>
- 
+
         <h1>
-            <b>World Cup Qatar 2022<img src="./Imágenes/Logo World Cup 2.png"width="70" alt="Logo World Cup"></b>
-        </h1> 
+            <b>World Cup Qatar 2022<img src="./Imágenes/Logo World Cup 2.png" width="70" alt="Logo World Cup"></b>
+        </h1>
         <nav class="nav3" id="nav3">
-            <a id="grupos1" href="./grupos.html"target="_blank">Grupos</a>
-            <a id="fixture1" href="./fixture.html"target="_blank">Fixture</a>
-            <a id="paises_participantes1"href="./paisesparticipantes.html"target="_blank">Selecciones</a>
-            <a id="estadios1"href="./estadios.html"target="_blank">Estadios</a>
+            <a id="grupos1" href="./grupos.html" >Grupos</a>
+            <a id="fixture1" href="./fixture.html" >Fixture</a>
+            <a id="paises_participantes1" href="./paisesparticipantes.html" >Selecciones</a>
+            <a id="estadios1" href="./estadios.html" >Estadios</a>
         </nav>
         <br>
     </header>
 
-    <main> 
+    <main>
         <div class="whatsapp">
             <h4>Mandanos un whatsapp</h4>
-            <a href="https://api.whatsapp.com/send?phone=1165478324" title="Whatsapp" target="_blank"><img src="./imágenes/Logo Whatsapp.png "  width="30" alt="Whatsapp"></a>
+            <a href="https://api.whatsapp.com/send?phone=1165478324" title="Whatsapp" target="_blank"><img
+                    src="./imágenes/Logo Whatsapp.png " width="30" alt="Whatsapp"></a>
         </div>
         <div>
             <h2 class="h2_login" id="login1">Login</h2>
         </div>
-        <img src="./Imágenes/Logos/Logo Login.png"width="40" alt="Login">
+        <img src="./Imágenes/Logos/Logo Login.png" width="40" alt="Login">
         <br><br>
-        <div class="login">
-            <form action="./show-data.html">
-            <label for="usuario">Usuario:</label>
-            <input type="text" name="usuario" id="usuario">
-            <br><br>
-            <label for="clave">Clave:</label>
-            <input type="password" name="clave" id="clave">
-            <br><br>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Borrar todo" id="">
-        </div> 
+<div class="contenedor4">
+    <div class="login tarjeta4">
+            <form action="/show-data.html" id="log">
+                <label for="usuario">Usuario:</label>
+                <input type="text" name="usuario" id="usuario">
+                <br><br>
+                <label for="clave">Clave:</label>
+                <input type="password" name="clave" id="clave">
+                <br><br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar todo" id="">
+            </form>
+    </div>
+</div>
 
-    </form>
+
 
     </main>
 
@@ -85,8 +91,9 @@
 
     </div>
 
-</div>
-    
-    
+    </div>
+
+    <script src="./js/login-validation.js"></script>
 </body>
+
 </html>
