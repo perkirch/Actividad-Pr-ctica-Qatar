@@ -19,11 +19,7 @@ function incluyeUnCaracter(palabra, tipoCaracter){
 document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("formu").addEventListener('submit', validarFormulario); 
   });
-<<<<<<< HEAD
 
-=======
-  
->>>>>>> fea26c18dd26e297dbb6f180c5a65af0d7815338
   function validarFormulario(evento) {
     evento.preventDefault();
 
@@ -64,9 +60,4 @@ document.addEventListener("DOMContentLoaded", function() {
     return;
   }
     this.submit();
-<<<<<<< HEAD
   }
-=======
-  }
-  
->>>>>>> fea26c18dd26e297dbb6f180c5a65af0d7815338
