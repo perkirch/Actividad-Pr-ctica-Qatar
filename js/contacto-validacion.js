@@ -1,4 +1,4 @@
-// Validación Formulario
+// Validación Formulario contacto
 
 var mayuscula = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ";
 var minuscula = "abcdefghijklmnñopqrstuvwxyz";
@@ -19,15 +19,9 @@ function incluyeUnCaracter(palabra, tipoCaracter){
 document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("formu").addEventListener('submit', validarFormulario); 
   });
-  
+
   function validarFormulario(evento) {
     evento.preventDefault();
-
-    const usuario = document.getElementById("usuario").value;
-    if(usuario.length <=5) {
-      alert('El usuario debe contener al menos 6 caracteres')
-      return;
-    }
 
     const nombre = document.getElementById("nombre").value;
     if(nombre.length == 0) {
@@ -55,32 +49,6 @@ document.addEventListener("DOMContentLoaded", function() {
       return;
     }
 
-    const clave = document.getElementById("clave").value;
-    if(clave.length == 0) {
-      alert('Ingrese una clave');
-      return;
-    }
-    if(!(incluyeUnCaracter(clave, mayuscula))){
-      alert('La clave debe contener alguna mayúscula');
-      return;
-    }
-    if(!(incluyeUnCaracter(clave, minuscula))){
-      alert('La clave debe contener alguna minúscula');
-      return;
-    }
-    if(!(incluyeUnCaracter(clave, numero))){
-      alert('La clave debe contener algún número');
-      return;
-    }
-    if (clave.length <=5) {
-      alert('La clave debe tener al menos 6 caracteres');
-      return;
-    }
-    if (clave.length >=10) {
-      alert('La clave debe tener menos de 10 caracteres');
-      return;
-    }
-
     const pais = document.getElementById("pais").value;
     if(pais.length == 0) {
       alert('Escribe tu país');
@@ -93,5 +61,3 @@ document.addEventListener("DOMContentLoaded", function() {
   }
     this.submit();
   }
-  
-  
