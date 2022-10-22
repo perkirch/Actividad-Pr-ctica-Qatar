@@ -20,17 +20,9 @@ document.addEventListener("DOMContentLoaded", function() {
     if (clave.length >=10) {
       alert('La clave debe tener menos de 10 caracteres');
       return;
-    }
-  
-   for (let i = 0 ; i < clave.length ; i++) {
-        if(clave[i]="0" && clave[i]<="9"){
-          alert('La clave debe contener un número');
-          return;
-        }
-      }
+    }    
     
-    
-     this.submit();
+    this.submit();
   }
   
   

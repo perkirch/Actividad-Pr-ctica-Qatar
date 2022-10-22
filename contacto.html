@@ -16,7 +16,7 @@
         <nav id="nav1"> 
             <a id="home"href="index.html">Home</a>
             <a id="acerca_de" href="./acercade.html" >Acerca de</a>
-            <a id="formulario" href="./formulario.html">Formulario</a>
+            <a id="formulario" href="./formulario.html">Registro</a>
             <a id="login" href="./login.html">Login</a>
             <a id="contacto" href="./contacto.html">Contacto</a>
         </nav>
@@ -33,10 +33,47 @@
         </nav>
     </header>
 
-    <main> 
+    <main>
+
         <div>
-             <h2 class="h2_contacto" id="contacto1">Contacto</h2>
+            <h2 class="h2_contacto" id="contacto1">Contáctenos</h2>
+       </div>
+        <img src="./Imágenes/Logos/Logo Form.png" width="40" alt="Login">
+        <br><br>
+
+
+        <div class="contenedor4">
+            <div class="tarjeta4">
+                <form action="./show-data.html" id="formu">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre..."><br><br>
+                    
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido..."><br><br>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Ingrese su email..."><br><br>
+                    
+                    <!-- <label for="nacimiento">Fecha de Nacimiento (mm/dd/yyyy):</label>
+                    <input type="text" name="nacimiento" id="nacimiento" name="birthdate"
+                    placeholder="Ingrese su fecha de nacimiento aquí..."><br><br> -->
+                    
+                    <label for="pais">País:</label>
+                    <input type="text" name="pais" id="pais" placeholder="Ingrese su país..."><br><br>
+                    
+                    <textarea name="comentarios" cols="30" rows="10">Escriba su cosulta o comentario...</textarea>
+                    <br><br>
+
+                    <input type="submit" value="Registrarme">
+
+                    <input type="reset" value="Borrar todo"><br><br>
+
+                    <label for="terminos">Acepto los términos</label>
+                    <input type="checkbox" id="terminos">
+                </form>
+            </div>
         </div>
+
         <div class="transicion">
             <h4>Mandanos un whatsapp
             <a href="https://api.whatsapp.com/send?phone=1165478324" title="Whatsapp" target="blank"><img src="./imágenes/Logo Whatsapp.png "  width="30" alt="Whatsapp"></a></h4>
@@ -74,8 +111,8 @@
 
     </div>
 
-</div>
+    </div>
     
-    
+    <script src="./js/formulario-validation.js"></script>
 </body>
 </html>
